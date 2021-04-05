@@ -75,7 +75,6 @@ header {
 
 /***** Main - start *****/
 
-
 .end-section {
     padding-bottom: 10vw;
 }
@@ -217,7 +216,8 @@ header {
     align-items: center;
 }
 
-.titre i, .titre h2 {
+.titre i,
+.titre h2 {
     font-size: 1.3rem;
 }
 
@@ -227,7 +227,7 @@ header {
     border: 5px solid white;
     background-color: white;
     border-radius: 20px;
-    display: flex; 
+    display: flex;
     text-decoration: none;
     margin-top: 3vw;
 }
@@ -256,7 +256,7 @@ header {
 
 .card-content {
     margin-top: 10px;
-    font-size: .9rem
+    font-size: 0.9rem;
 }
 
 .symbole-euro {
@@ -277,15 +277,39 @@ header {
 
 .card-hebergement {
     width: auto;
-    height: 35vw;
+    height: 50vw;
     border: 5px solid white;
     background-color: white;
     border-radius: 20px;
-    display: flex; 
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     margin-top: 3vw;
+    box-shadow: 0px 0px 10px 10px rgba(242, 242, 242);
 }
 
+.image-hebergement {
+    height: 60%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.info-hebergement {
+    color: black;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title-hebergement, .card-content-hebergement {
+    margin: 0;
+}
+
+.card-content-hebergement {
+    font-size: .9rem;
+}
 /***** Hébergements - end *****/
 
 /***** Activité - start *****/
@@ -293,6 +317,3 @@ header {
 /***** Activité - end *****/
 
 /***** Main - end *****/
-
-
-
