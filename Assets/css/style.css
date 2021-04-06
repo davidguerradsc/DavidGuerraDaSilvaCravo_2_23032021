@@ -86,7 +86,6 @@ header {
 }
 
 .champ-recherche {
-    /* border: 1px solid var(--background-color); */
     display: flex;
     flex-direction: row;
     border-radius: var(--border-radius-search);
@@ -290,8 +289,8 @@ header {
 
 .image-hebergement {
     height: 60%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     object-fit: cover;
 }
 
@@ -303,17 +302,93 @@ header {
     justify-content: space-between;
 }
 
-.card-title-hebergement, .card-content-hebergement {
+.card-title-hebergement,
+.card-content-hebergement {
     margin: 0;
 }
 
 .card-content-hebergement {
-    font-size: .9rem;
+    font-size: 0.9rem;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+
+.plus-hebergement {
+    margin-top: 10vw;
+}
+
+.lien-plus-hebergement {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 /***** Hébergements - end *****/
 
 /***** Activité - start *****/
 
+.titre-activite {
+    margin-bottom: 7vw;
+}
+
+.card-activite {
+    width: auto;
+    height: 50vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 6vw;
+    box-shadow: 0px 0px 10px 10px rgba(242, 242, 242);
+}
+
+.info-activite {
+    height: 100%;
+    color: black;
+    padding-left: 6vw;
+    display: flex;
+    align-items: center;
+}
+
+.card-title-activite {
+    margin: 0;
+}
+
+.image-activite {
+    height: 70%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    object-fit: cover;
+}
+
 /***** Activité - end *****/
+
+/***** footer - start *****/
+
+footer{
+    background-color: var(--background-color);
+    padding: 10vw 0 1vw 8vw;
+}
+
+.liens-footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vw;
+    line-height: 8vw;
+}
+
+.liens-footer a:first-child {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+
+.liens-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/***** footer - end *****/
 
 /***** Main - end *****/

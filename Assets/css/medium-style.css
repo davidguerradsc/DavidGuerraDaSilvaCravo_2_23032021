@@ -1,0 +1,83 @@
+/***** Global - start *****/
+
+header {
+    height: unset;
+}
+
+.end-section {
+    padding-bottom: 7vw;
+}
+
+/***** Global - end *****/
+
+/***** Menu - start *****/
+
+nav {
+    width: 50%;
+    margin-right: 2vw;
+}
+
+.menu {
+    width: -webkit-fill-available;
+    flex-direction: unset;
+    justify-content: flex-end;
+}
+
+.list_menu li {
+    border: none;
+    padding-bottom: 0;
+}
+
+/***** Menu - end *****/
+
+/***** Recherche - start *****/
+
+.champ-recherche {
+    width: 50%;
+    margin-top: 7vw;
+}
+
+.icon-search{
+    left: 45%;
+}
+
+/***** Recherche - end *****/
+
+/***** Filtre - start *****/
+
+.bouton-filtre {
+    margin-right: 2vw;
+}
+
+.information {
+    margin-top: 0;
+}
+/***** filtre - end *****/
+
+/***** Populaire - start *****/
+
+.titre {
+    padding-top: 3vw;
+}
+
+.global-cards-populaire {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-populaire {
+    width: 45%;
+    height: 18vw;
+}
+
+.info-populaire {
+    padding-left: 3vw;
+}
+
+/***** Populaire - end *****/
+
+/***** Recherche - start *****/
+
+
+/***** filtre - end *****/
