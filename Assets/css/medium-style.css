@@ -8,6 +8,12 @@ header {
     padding-bottom: 7vw;
 }
 
+.global-cards-populaire, .global-cards-hebergement, .global-cards-activite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /***** Global - end *****/
 
 /***** Menu - start *****/
@@ -60,24 +66,66 @@ nav {
     padding-top: 3vw;
 }
 
-.global-cards-populaire {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .card-populaire {
-    width: 45%;
+    width: 39vw;
     height: 18vw;
 }
 
 .info-populaire {
-    padding-left: 3vw;
+    padding: 2vw;
 }
 
 /***** Populaire - end *****/
 
-/***** Recherche - start *****/
+/***** Hebergement - start *****/
+
+.card-hebergement {
+    width: 39vw;
+    height: 35vw;
+}
+
+.plus-hebergement {
+    margin-top: 7vw;
+}
+
+/***** Hebergement - end *****/
+
+/***** Activite - start *****/
+
+.card-activite {
+    width: 40vw;
+    height: 35vw;
+    margin-top: 3vw;
+}
+
+.image-activite {
+    height: 80%;
+}
+
+.info-activite {
+    padding-left: 3vw;
+}
+
+.titre-activite {
+    margin-bottom: 0;
+}
+
+.plus-activite {
+    margin-top: 7vw;
+}
+
+/***** Activite - end *****/
 
 
-/***** filtre - end *****/
+footer {
+    padding: 5vw 5vw;
+    display: flex;
+}
+
+.liens-footer {
+    width: -webkit-fill-available;
+    line-height: 4vw;
+    margin-bottom: 0;
+    text-align: center;
+}
