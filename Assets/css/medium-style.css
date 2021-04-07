@@ -124,6 +124,10 @@ footer {
     justify-content: space-between;
 }
 
+.liens-footer a:first-child {
+    margin-bottom: 2vw;
+}
+
 .liens-footer {
     width: 30%;
     line-height: 4vw;
