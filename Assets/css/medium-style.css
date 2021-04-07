@@ -121,11 +121,11 @@ nav {
 footer {
     padding: 5vw 5vw;
     display: flex;
+    justify-content: space-between;
 }
 
 .liens-footer {
-    width: -webkit-fill-available;
+    width: 30%;
     line-height: 4vw;
     margin-bottom: 0;
-    text-align: center;
 }
