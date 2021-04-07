@@ -16,6 +16,10 @@ body {
     color: black;
 }
 
+.card-title, .card-title-activite, .card-title-hebergement {
+    font-size: 1rem;
+}
+
 /***** Header - start *****/
 header {
     height: 37vw;
@@ -137,7 +141,8 @@ header {
 
 /***** Filtre - start *****/
 
-.filtres h4 {
+.filtres h3 {
+    font-size: 1.1rem;
     margin-top: 0;
     margin-bottom: 4vw;
 }
