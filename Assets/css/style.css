@@ -20,6 +20,10 @@ body {
     font-size: 1rem;
 }
 
+.hidden {
+    display: none;
+}
+
 /***** Header - start *****/
 header {
     height: 37vw;
