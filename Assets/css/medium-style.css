@@ -121,7 +121,7 @@ nav {
 footer {
     padding: 5vw 5vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .liens-footer a:first-child {
@@ -129,7 +129,7 @@ footer {
 }
 
 .liens-footer {
-    width: 30%;
+    width:auto;
     line-height: 4vw;
     margin-bottom: 0;
 }
