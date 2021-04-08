@@ -215,11 +215,19 @@ nav {
 .card-activite {
     margin-top: 0;
     width: auto;
-    height: -webkit-fill-available;
+    height: 30vw
 }
 
 .card-activite-2 {
-    height: 45%;
+    height: 47%;
+}
+
+.card-activite-height-51{
+    height: 51%;
+}
+
+.card-activite-height-42{
+    height: 42%;
 }
 
 .block-cards-activite {
@@ -236,6 +244,27 @@ nav {
     justify-content: space-between;
 }
 
+.info-activite {
+    padding-left: 2vw;
+    height: 4vw;
+}
+
+.image-activite-height-full {
+    height: 87%;
+}
+
+.image-activite-height-75 {
+    height: 75%;
+}
+
+.image-activite-height-67 {
+    height: 67%;
+}
+
+.image-activite-height-70 {
+    height: 70%;
+}
+
 
 
 /****** Activités - end ******/
@@ -243,12 +272,19 @@ nav {
 /****** Footer - start ******/
 
 footer {
+    padding: 3vw 6vw;
     justify-content: space-between;
 }
 
 .liens-footer {
     width: 33%;
+    line-height: 2.5vw;
+    font-size: .8rem;
 }
 
+.liens-footer a:first-child {
+    margin-bottom: 1vw;
+    font-size: .9rem;
+}
 
 /****** Footer - end ******/
