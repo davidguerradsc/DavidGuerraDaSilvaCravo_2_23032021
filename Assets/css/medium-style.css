@@ -80,6 +80,10 @@ nav {
 
 /***** Hebergement - start *****/
 
+.global-hebergement {
+    padding: 0;
+}
+
 .card-hebergement {
     width: 39vw;
     height: 35vw;

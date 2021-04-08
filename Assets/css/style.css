@@ -5,15 +5,18 @@
     --border-radius-search: 15px;
 }
 
-.padding-6 {
+.padding {
     padding-left: 6vw;
     padding-right: 6vw;
 }
 
 body {
     margin: 0;
-    font-family: "Raleway", sans-serif;
     color: black;
+}
+
+body,.input-recherche::placeholder, .button-search {
+    font-family: "Raleway", sans-serif;
 }
 
 .card-title, .card-title-activite, .card-title-hebergement {
@@ -89,6 +92,10 @@ header {
 
 /***** Recherche - start *****/
 
+.button-search {
+    display: none;
+}
+
 .accroche {
     font-size: 1.4rem;
 }
@@ -123,6 +130,7 @@ header {
 .input-recherche::placeholder {
     color: black;
     font-weight: bold;
+    font-family: "Raleway", sans-serif;
 }
 
 .icon-search {
