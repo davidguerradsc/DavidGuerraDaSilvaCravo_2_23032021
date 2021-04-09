@@ -1,0 +1,50 @@
+header {
+    padding-bottom: 1vw;
+}
+
+.logo {
+    height: 3vw;
+}
+
+.inscription, .list_menu li a {
+    font-size: 1.1;
+}
+
+.card-title-hebergement {
+    font-size: 1rem;
+}
+
+.card-content-hebergement {
+    font-size: .9rem;
+    
+}
+
+.titre i, .titre h2 {
+    font-size: 1.3rem;
+}
+
+.card-title, .card-title-activite, .card-title-hebergement {
+    font-size: 1rem;
+}
+
+.card-content {
+    font-size: 0.9rem;
+}
+
+.card-rate {
+    font-size: .9rem;
+}
+
+.lien-plus-hebergement {
+    font-size: 1.2rem;
+}
+
+.liens-footer a:first-child {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.liens-footer {
+    line-height: 2vw;
+    font-size: .9rem;
+}
