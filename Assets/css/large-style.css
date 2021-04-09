@@ -19,6 +19,7 @@ header {
 }
 
 .menu {
+    width: 100%;
     top: 0;
     position: absolute;
 }
@@ -132,7 +133,6 @@ nav {
 
 .card-populaire, .card-hebergement {
     margin: 1vw 0;
-    border: 4px solid white;
 }
 
 .titre {
