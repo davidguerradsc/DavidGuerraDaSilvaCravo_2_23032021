@@ -85,7 +85,11 @@ nav {
 
 .card-hebergement {
     width: 39vw;
-    height: 35vw;
+    height: 31vw;
+}
+
+.info-hebergement {
+    padding: 2vw;
 }
 
 .plus-hebergement {

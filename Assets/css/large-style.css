@@ -192,6 +192,7 @@ nav {
 .info-hebergement {
     height: 100%;
     padding: .6vw;
+    padding-left: .9vw;
 }
 
 .card-content-hebergement {
