@@ -69,10 +69,17 @@ nav {
 
 .champ-recherche {
     margin-top: 0;
+    width: 35%;
+}
+
+.icon-marker {
+    width: 40px;
+    height: 40px;
 }
 
 .input-recherche {
     width: 50%;
+    font-size: 1rem;
 }
 
 .input-recherche::placeholder {

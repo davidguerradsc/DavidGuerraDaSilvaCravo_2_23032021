@@ -103,7 +103,6 @@ header {
 .champ-recherche {
     display: flex;
     flex-direction: row;
-    /* border-radius: var(--border-radius-search); */
     margin-top: 10vw;
 }
 
@@ -133,6 +132,10 @@ header {
     font-family: "Raleway", sans-serif;
 }
 
+.input-recherche:focus {
+    outline-style: none;
+}
+
 .icon-search {
     border: none;
     border-radius: var(--border-radius-search);
@@ -146,7 +149,7 @@ header {
 
 .input-recherche,
 .icon-search {
-    padding: 10px;
+    padding: 9px 10px;
 }
 
 /***** Recherche - end *****/
