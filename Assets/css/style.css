@@ -287,6 +287,10 @@ header {
 
 /***** Hébergements - start *****/
 
+.global-hebergement {
+    padding-bottom: 0;
+}
+
 .card-hebergement {
     width: auto;
     height: 50vw;
