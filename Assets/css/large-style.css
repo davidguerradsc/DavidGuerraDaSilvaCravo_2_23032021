@@ -8,7 +8,7 @@
 }
 
 .card-populaire:hover, .card-hebergement:hover, .card-activite:hover {
-    transform: scale(1.1, 1.1);
+    transform: translateY(-.625rem);
     transition: 0.5s;
 }
 
