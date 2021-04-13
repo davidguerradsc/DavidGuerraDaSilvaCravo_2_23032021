@@ -109,6 +109,9 @@ nav {
 }
 
 .bouton-filtre:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border: 2px solid var(--color-secondary);
     cursor: pointer;
     transform: scale(1.2, 1.2);
     transition: 0.5s;
