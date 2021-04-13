@@ -7,6 +7,11 @@
     font-weight: 600;
 }
 
+.card-populaire:hover, .card-hebergement:hover, .card-activite:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
 /****** Header - start ******/
 
 header {
@@ -41,7 +46,7 @@ nav {
 .list_menu li:hover {
     border-bottom: none;
     border-top: 2px solid var(--color-primary);
-    padding-top: 19px;
+    padding-top: 24px;
 }
 
 .inscription {
@@ -101,6 +106,12 @@ nav {
 
 .bouton-filtre {
     margin-bottom: 2vw;
+}
+
+.bouton-filtre:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+    transition: 0.5s;
 }
 
 .filtre-value {
@@ -190,7 +201,7 @@ nav {
 }
 
 .info-hebergement {
-    height: 100%;
+    height: 4vw;
     padding: .6vw;
     padding-left: .9vw;
 }

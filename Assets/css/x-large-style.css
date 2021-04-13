@@ -10,6 +10,10 @@ header {
     font-size: 1.1rem;
 }
 
+.list_menu li:hover {
+    padding-top: 1.86vw;
+}
+
 .card-title-hebergement {
     font-size: 1rem;
 }
