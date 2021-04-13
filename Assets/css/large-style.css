@@ -46,7 +46,7 @@ nav {
 .list_menu li:hover {
     border-bottom: none;
     border-top: 2px solid var(--color-primary);
-    padding-top: 24px;
+    padding-top: 1.85vw;
 }
 
 .inscription {
