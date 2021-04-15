@@ -94,7 +94,7 @@ nav {
     color: white;
     font-weight: 600;
     padding: 0 1vw;
-    border-radius: 0 var(--border-radius-search) var(--border-radius-search) 0;
+    border-radius: 0 25px 25px  0;
     font-size: 1rem;
 }
 
@@ -124,6 +124,10 @@ nav {
     transition: 0.5s;
 }
 
+.bouton-filtre:focus {
+    outline-style: none;
+}
+
 .filtre-value {
     height: 46px;
     font-size: 1rem;
@@ -149,7 +153,7 @@ nav {
 }
 
 .populaires, .hebergement {
-    border-radius: var(--border-radius-search);
+    border-radius: 15px;
 }
 
 .card-populaire, .card-hebergement {
@@ -208,6 +212,10 @@ nav {
     width: 30%;
     height: 14vw;
     border-bottom: none;
+}
+
+.image-hebergement {
+    height: 9vw;
 }
 
 .info-hebergement {
