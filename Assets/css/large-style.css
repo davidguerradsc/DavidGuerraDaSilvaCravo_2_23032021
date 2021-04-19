@@ -44,9 +44,14 @@ nav {
 }
 
 .list_menu li:hover {
+    color: var(--color-primary);
     border-bottom: none;
     border-top: 2px solid var(--color-primary);
     padding-top: 1.85vw;
+}
+
+.list_menu li:hover a {
+    color: var(--color-primary);
 }
 
 .inscription {
