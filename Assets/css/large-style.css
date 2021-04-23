@@ -50,7 +50,7 @@ nav {
     padding-top: 1.85vw;
 }
 
-.list_menu li:hover a {
+.list_menu li:hover > a {
     color: var(--color-primary);
 }
 
