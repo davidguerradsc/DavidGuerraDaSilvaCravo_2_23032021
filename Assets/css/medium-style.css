@@ -128,9 +128,11 @@ nav {
 
 /***** Activite - end *****/
 
-
-footer {
+footer{
     padding: 5vw 5vw;
+}
+
+.footer {
     display: flex;
     justify-content: space-around;
 }
@@ -143,4 +145,7 @@ footer {
     width:auto;
     line-height: 4vw;
     margin-bottom: 0;
+}
+.realisation {
+    margin-top: 7vw;
 }
